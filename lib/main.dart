@@ -12,7 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Messenger',
-      home: Scaffold(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Welcome"),
+        ),
+      ),
     );
   }
 }
